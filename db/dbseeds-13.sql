@@ -12,3 +12,11 @@ CREATE TABLE burgers
 	devoured BOOLEAN DEFAULT false,
 	PRIMARY KEY (id)
 );
+
+
+INSERT INTO burgers (burger_name) VALUES ('Plain');
+INSERT INTO burgers (burger_name) VALUES ('Whopper');
+INSERT INTO burgers (burger_name) VALUES ('Double Bacon');
+
+select * from burgers
+
